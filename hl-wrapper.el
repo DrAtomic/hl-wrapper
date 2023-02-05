@@ -100,4 +100,9 @@
   (setq hlt-last-face 'hl-wrapper-green)
   (hlt-highlight-region))
 
+;;;###autoload
+(defun hl-wrapper-unhighlight-region ()
+  (interactive)
+  (hlt-unhighlight-region))
+
 (provide 'hl-wrapper)

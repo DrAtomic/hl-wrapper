@@ -34,4 +34,5 @@ now add to your ~/.emacs.d/init.el
 (global-set-key (kbd "C-c h r") 'hl-wrapper-highlight-region-red)
 (global-set-key (kbd "C-c h y") 'hl-wrapper-highlight-region-yellow)
 (global-set-key (kbd "C-c h g") 'hl-wrapper-highlight-region-green)
+(global-set-key (kbd "C-c h u") 'hl-wrapper-unhighlight-region)
 ```
